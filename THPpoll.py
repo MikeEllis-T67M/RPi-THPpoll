@@ -2,8 +2,6 @@ import time
 import sys
 import requests
 
-sys.path_append('/home/pi/THPpoll')
-
 import bme280    # Read the BME sensor
 
 database   = 'http://192.168.16.1:8086/write?db=temperature'
