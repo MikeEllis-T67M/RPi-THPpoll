@@ -32,7 +32,7 @@ def main():
         except Exception as e:
             track = traceback.format_exc()
             print("Unexpected error:", track)
-            break
+            # break 
             
 if __name__ == '__main__':
     main()
